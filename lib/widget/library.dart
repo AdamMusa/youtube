@@ -35,7 +35,7 @@ class LibraryVideo extends StatelessWidget {
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: const[
-                              Text("Firebase Community",),
+                              Text("Flutter Community",),
                               Icon(Icons.more_vert,color: Colors.white)
                             ],
                           ),
@@ -73,7 +73,7 @@ class LibraryVideo extends StatelessWidget {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        Image.asset("assets/firebase.png",height: 100, fit: BoxFit.contain,),
+                        Image.asset("assets/firebase.png",height: 100,),
                        Container(
                           height: 50,
                           color: Colors.grey.withOpacity(.2),

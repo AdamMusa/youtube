@@ -163,7 +163,7 @@ openShit(){
                 gap: 8,
                 activeColor: Colors.white,
                 iconSize: 24,
-                padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 12),
                 duration: const Duration(milliseconds: 400),
                 tabBackgroundColor: Colors.blue,
                 color: Colors.white,

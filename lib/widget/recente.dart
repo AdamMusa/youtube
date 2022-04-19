@@ -45,9 +45,7 @@ class _RecentVideListState extends State<RecentVideList> {
       body: ListView.separated(
         scrollDirection: Axis.horizontal,
         itemBuilder: (context, index) {
-          return SizedBox(
-            height: 200,
-            child: Column(
+          return Column(
               children: [
                 YoutubePlayer(
                   key: ObjectKey(_controllers[index]),
@@ -70,7 +68,7 @@ class _RecentVideListState extends State<RecentVideList> {
                   subtitle: Text(description[index])
                 )
               ],
-            ),
+            
           );
         },
         itemCount: _controllers.length,
